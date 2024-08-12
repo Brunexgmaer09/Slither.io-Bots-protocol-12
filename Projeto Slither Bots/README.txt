@@ -1,8 +1,8 @@
-SnakeyRain
 
-Using SnakeyRain:
 
-	1. Download the SnakeyRain zip file and extract it to a directory on your computer. 
+Using BrunexBots:
+
+	1. Download the Bots zip file and extract it to a directory on your computer. 
 
 	2. In chrome, go to manage extensions at chrome://extensions/ , enable developer mode with the toggle on the top right, then click load unpacked.
 
