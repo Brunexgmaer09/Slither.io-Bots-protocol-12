@@ -74,7 +74,7 @@ Toggle Player Count:
 	By default, the server stops spawning bots when a certain player limit is reached. This prevents lockouts and makes the server much more playable for others. This can be disabled 
 	with the togglePlayerCount key. Keep in mind that doing so will likely lock out the server for players attempting to join.
 
-Snakey rotate by Aylina:
+Snakey rotate by Zero Love:
 	Snakey rotate is included. Press right arrow to coil clockwise and left arrow to coil counter clockwise. Press either arrow to disable. 
 
 Enjoy
