@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "SnakeyRain - When it rains, it pours!",
+	"version": "4.4",
+	"description": "Control botstorms in slither.io while using the NTL mod.",
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"content_scripts": [{
+		"css": ["ui.css"],
+		"js": ["content.js"],
+		"matches": ["*://slither.io/*"],
+		"run_at": "document_start"
+	}],
+	"background": {
+		"type": "module"
+	},
+	"web_accessible_resources": [{
+		"resources": ["main.js", "snakeyrotate.js", "settings.js", "bson.mjs"],
+		"matches": ["*://slither.io/*"]
+	}]
+}

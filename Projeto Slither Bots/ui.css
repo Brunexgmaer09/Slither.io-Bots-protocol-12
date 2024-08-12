@@ -1,0 +1,88 @@
+#snakeyrain-ui {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    height: 25px;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#connected-container {
+    height: 25px;
+    font-size: 12px;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    box-sizing: border-box !;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.databox {
+    text-align: center;
+    height: 25px;
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+    color: #FFFFFF;
+
+}
+
+.databox p {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 4px;
+    display: block;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 0;
+    line-height: 16px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.snakeylogo {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAACt0lEQVRIibVWP2wSURz+SGoCi5bJdCphMwzSsJLUJgxdSDFap1pxKN3gulgmudtgkmMTFqSdbIkQYsJAIomNk01hIG4NTB2tEyYOmPvde4873t2JQ78EQu9+7/t+/199s9kMd42Vpfm3sQogBSDEntwCaKGLsWS7AOdITMIoEXUxwDaR1wE8kGwBDV2o0lMLJJE/SSLvWwgnANalk3a0AYzvdaBIb5zSNQ2QV1aP3QR0ADn2e4fOvgDuf5SFZBE/pcoLvwA8AZB2sElP96lmLePzsEF1s6drfEhRKC65BxcIvcdgfEgFd4sSLM0pw1aI/MhRYV9JpnYcPdJRZvZlS7rcYDgVIpGrPIX/xcXQho0ifFd5SqnRHI8lAxk61WTqJ5Fl0P6mYhX+pQUMpEyRgPTCDf3/iIBjnUcykF6ZeM0mvMD+VhaKPWFboOXVBKLw51USsnqoP89AOa8SwY500sSW0ZQAnXXryLYQOWlQMcfMeMLWilGrT8z4iHm9yZ14uQ/lpEHp25SoLY6IYZwGiJB7wwetzgkzuyhXz0SDDAGo1TMoCAiBp8wJ6xh8yOyiT5HoHVsUei4JRe+INDlFtcG2ME+TlktC1TsiKuOMmkuaTpJIsedJuMXIuBNaPgG12BOEw3wC0WKPmuIddyKfmDeT7+3XWcqDUNfiUAoXwomhFke0cGEnXIxKi9tXv+/N9xnfQXopBuX40jMqibAUg3p8OY+qFKMzNqxM/URqzIKaHSEFv2jXdCWC2+xIrG6tEsEgOxJ3zbASMT22bG6nzYyVSsQkObgmQ9FNtTCR8fslWgujfHBt6yZBOA0gXQu7DvR8GPdu7Gk6XTPvAiv2bugZpel0zfvKtUVifD37iag1Tc2gLMDSYkQaagaXFxAiv80FaURQ/2xuWEc0g853+L9w9/93AfgLS0/4hrH6miwAAAAASUVORK5CYII=);
+}
+
+#connect-button {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background-color: rgba(0, 0, 0, .5);
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 2.5px;
+    margin-bottom: 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+    box-sizing: border;
+    position: relative;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+#connect-button:hover {
+    background-color: rgba(72,255,255,0.5);
+  }
+
+#connect-button:active{
+    background-color:rgba(72,255,255,.75);
+}
